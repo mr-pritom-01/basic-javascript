@@ -40,8 +40,37 @@ console.log(theNumber%divBy);
 // practice-1
 
 // practice-2
+var myScore = 85;
+var tomScore = 66;
+var janeScore = 95;
+var peterScore = 56;
+var johnScore = 40;
+var failOne = 39;
+
+var score = failOne;
+
+if (score >= 80){
+    console.log('Gread = A')
+}
+else if (score >= 60){
+    console.log('Gread = B')
+}
+else if (score >= 50){
+    console.log('Gread = C')
+}
+else if (score >= 40){
+    console.log('Gread = D')
+}
+else {
+    console.log('Gread = F');
+}
 
 // practice-3
+var numbers = [10, 20];
+
+var largestNumber = Math.max(...numbers);
+
+console.log(largestNumber);
 
 // practice-4
 

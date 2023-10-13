@@ -118,3 +118,6 @@ else {
     console.log('Khali Cha den')
 }
 // 11
+// 12 nested condition
+
+// 13
