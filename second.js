@@ -56,7 +56,7 @@ var myBudget = 500;
 //     console.log('I am fokir ultra max pro');
 // }
 
-if (bbqPrice <= myBudget){
+if (bbqPrice <= myBudget) {
     console.log('I will eat chicken bbq');
 }
 else {
@@ -69,7 +69,7 @@ var salary = 75000;
 var car = 1;
 
 
-if (isGraduated == true && salary > 50000 && car >= 1){
+if (isGraduated == true && salary > 50000 && car >= 1) {
     console.log('You will get e wife');
 }
 else {
@@ -81,7 +81,7 @@ var isGraduated = false;
 var salary = 7000;
 var car = 0;
 
-if (isGraduated == true || salary >= 50000 || car >= 1 ) {
+if (isGraduated == true || salary >= 50000 || car >= 1) {
     console.log('Biya korte parba');
 }
 else {
@@ -93,7 +93,7 @@ var isGraduated = false;
 var salary = 7000;
 var car = 0;
 
-if (isGraduated == true || salary >= 50000 || car >= 1 ) {
+if (isGraduated == true || salary >= 50000 || car >= 1) {
     console.log('Biya korte parba');
 }
 else {
@@ -121,10 +121,34 @@ else {
 // 12 nested condition
 
 // 13
-var numbers = [10,20,30,40,50,60];
+var numbers = [10, 20, 30, 40, 50, 60];
 
 numbers.shift();
 
 console.log(numbers);
 
 // 14
+var givePlate = 0;
+
+while (givePlate < 7) {
+    console.log('Give me a plate please...');
+    console.log(givePlate);
+    givePlate += 1;
+}
+
+
+// 15
+var number = 1;
+var numbers = 0;
+
+while (number <= 10) {
+    console.log(number);
+
+    number = number + 2;
+}
+
+while (numbers <= 10) {
+    console.log(numbers);
+
+    numbers = numbers + 2;
+}

@@ -18,7 +18,7 @@ var bangla = 99.50;
 
 var totalNum = math + biology + chemistry + physics + bangla;
 
-var average = totalNum/5;
+var average = totalNum / 5;
 average = average.toFixed(2);
 
 console.log(average);
@@ -35,7 +35,7 @@ console.log(combined);
 var theNumber = 119;
 var divBy = 5;
 
-console.log(theNumber%divBy);
+console.log(theNumber % divBy);
 
 // practice-1
 
@@ -49,16 +49,16 @@ var failOne = 39;
 
 var score = failOne;
 
-if (score >= 80){
+if (score >= 80) {
     console.log('Gread = A')
 }
-else if (score >= 60){
+else if (score >= 60) {
     console.log('Gread = B')
 }
-else if (score >= 50){
+else if (score >= 50) {
     console.log('Gread = C')
 }
-else if (score >= 40){
+else if (score >= 40) {
     console.log('Gread = D')
 }
 else {
@@ -77,7 +77,7 @@ var side1 = 9;
 var side2 = 1;
 var side3 = 1;
 
-if (side1 == side2 || side1 == side3 || side2 == side3){
+if (side1 == side2 || side1 == side3 || side2 == side3) {
     console.log('its a somo di bahu trivuj');
 }
 else {
