@@ -73,5 +73,15 @@ var largestNumber = Math.max(...numbers);
 console.log(largestNumber);
 
 // practice-4
+var side1 = 9;
+var side2 = 1;
+var side3 = 1;
+
+if (side1 == side2 || side1 == side3 || side2 == side3){
+    console.log('its a somo di bahu trivuj');
+}
+else {
+    console.log('its not a somo di bahu trivuj');
+}
 
 // practice-5

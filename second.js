@@ -121,3 +121,10 @@ else {
 // 12 nested condition
 
 // 13
+var numbers = [10,20,30,40,50,60];
+
+numbers.shift();
+
+console.log(numbers);
+
+// 14
