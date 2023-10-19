@@ -152,3 +152,13 @@ while (numbers <= 10) {
 
     numbers = numbers + 2;
 }
+
+// 16 for loop
+for( var roastDen = 1; roastDen <= 6; roastDen++ ) {
+    console.log('Give me a roast !!');
+    console.log(roastDen);
+}
+// 17
+for ( evenNumber = 1; evenNumber <= 20; evenNumber+=2 ){
+    console.log(evenNumber);
+}
