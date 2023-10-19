@@ -162,3 +162,17 @@ for( var roastDen = 1; roastDen <= 6; roastDen++ ) {
 for ( evenNumber = 1; evenNumber <= 20; evenNumber+=2 ){
     console.log(evenNumber);
 }
+// 18 array loop (target display every element of an array)
+var numbers = [10,20,30,40,50,60,70];
+
+for ( i = 0; i <= 6 ; i++ ) {
+    var number = numbers[i];
+    console.log(number);
+}
+// 19
+var tables = [10,20,30,40,50, 1,2,3,4,5,6];
+
+for (i = 0; i < tables.length; i++){
+    var table = tables[i];
+    console.log(table);
+}
