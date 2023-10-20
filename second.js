@@ -1,3 +1,6 @@
+// ctrl + c (stops infinity loop)
+
+
 //1 array 
 var friendsAge = [10, 11, 12, 13, 14, 15];
 var picnicFee = [5000, 1500, 2000, 1000];
@@ -176,3 +179,36 @@ for (i = 0; i < tables.length; i++){
     var table = tables[i];
     console.log(table);
 }
+
+// 20
+var roastGiven = 1;
+
+while (roastGiven < 10){
+    if (roastGiven > 5){
+        break;
+    }
+    console.log('Roast Den');
+    console.log(roastGiven);
+    roastGiven++;
+}
+// 21
+var items = ['Book','Pen','Pencil','Rubber','Cutter'];
+
+for (i = 0; i < items.length; i++) {
+    var item = items[i];
+    if(item == 'Rubber'){
+        break;
+    }
+    console.log(item);
+}
+// 22 50 er beshi nibe na
+var numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,52,35,55,78,11]
+
+for (var i = 0; i < numbers.length; i++){
+    var number = numbers[i];
+    if(number > 50){
+        continue;
+    }
+    console.log(number);
+}
+
