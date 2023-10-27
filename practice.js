@@ -84,4 +84,25 @@ else {
     console.log('its not a somo di bahu trivuj');
 }
 
-// practice-5
+// practice-5 find the largest number using a function
+var num1 = 10;
+var num2 = 60;
+var num3 = 30;
+
+
+if (num1 > num2){
+    if(num1 > num3){
+        console.log(num1);
+    }
+    else {
+        console.log(num3);
+    }
+}
+else {
+    if(num2 > num3){
+        console.log(num2);
+    }
+    else{
+        console.log(num3);
+    }
+}
